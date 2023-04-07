@@ -35,11 +35,11 @@ function my_mousedown(e)
     console.log("X = " + mouse_x + " ,Y =  " + mouse_y);
     circle(mouse_x , mouse_y);    
 }
-function my_mousedown(e)
+function my_mousemove(e)
 {  mouse_x = e.clientX - canvas.offsetLeft;
  mouse_y = e.clientY - canvas.offsetTop;
  
- if (mouseEvent == "mouseDown"
+ if (mouseEvent == "mouseMove"
  {
  console.log("Current position of x and y coordinates = "
   console.log("x = " + current_position_of_mouse_x + "y = " +
