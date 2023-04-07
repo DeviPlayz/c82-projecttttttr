@@ -4,7 +4,7 @@ ctx= canvas.getContext("2d");
 
 color = "red";
 radius = "";  
-width = "";
+width = "2";
 
 ctx.beginPath();
 ctx.strokeStyle = color;
